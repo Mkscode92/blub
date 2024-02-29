@@ -64,8 +64,8 @@
 
 
         .navbar img {
-            height: 30px;
-            width: 30px;
+            height: 20px;
+            width: 20px;
         }
 
         .img {
@@ -80,10 +80,14 @@
         .navbar a {
             color: white;
             text-decoration: none;
-            margin: 0 10px;
+            margin: 0 5px;
         }
 
-        @media screen and (min-width: 600px) {
+        @media screen and (min-width: 600px){
+            .navbar img {
+                height: 30px;
+                width: 30px;
+            }
             .navbar a {
                 color: white;
                 text-decoration: none;
@@ -291,7 +295,7 @@
   
                         </ul>
                     </div>
-                    <button><img src = "lmenu.svg" height="35px" width="35px" onclick="openmenu()"></button>
+                    <button><img src = "lmenu.svg" onclick="openmenu()" style = "height: 30px; width: 30px;"></button>
                 </div>
             </div>
             <div class="navbar-middle" style = "margin-left: 10px;">
